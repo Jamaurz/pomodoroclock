@@ -1,0 +1,78 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+h1 {
+  background-color: #FF502E;
+  color: white;
+  padding: 1% 4%;
+  border-bottom-left-radius: 5px;
+}
+.setTime {
+  margin: 4% 0 8%;
+}
+span {
+  color: #FF502E;
+  border: 2px dashed #FF502E;
+  padding: 2%;
+}
+span#spec {
+  color: white;
+  bachground-color: white;
+}
+#tbres {
+  background-color: #7F2817;
+  color: white;
+  border-color: white;
+}
+#twres {
+  background-color: #22BF0D;
+  color: white;
+  border-color: white;
+}
+#display{
+  width: 40%;
+  margin: 0 auto;
+}
+.anim {
+  height: 85px;
+}
+.animPart {
+  width: 4%;
+  height: 80px;
+  display: inline-block;
+  margin-right: 2%;  
+  border-top-left-radius: 5px;
+}
+.animPart:last-of-type{
+  margin-right: 0;
+}
+.boxTime {
+  /*background-color: #FF502E; */
+  background-color: #22BF0D;
+  color: white;
+  padding: 4% 0;  
+  font-size: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.boxTime a {
+  color: white;
+  text-transform: uppercase;
+}
+#currentTime {
+  padding: 4% 0;
+  color: white;
+  display: block;
+}
+#currentTime span {
+  border-color: white;
+}
+.point {
+  cursor: pointer;
+}
+#tempLicz,#breakTimer {
+  display: none;
+}
+#timeB, #timeW {
+  height: 50px;
+}
